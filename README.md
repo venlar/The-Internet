@@ -15,6 +15,7 @@ I practice writing automated tests with Selenium. In progress :smile:
 ```docker run -d -p 7080:5000 gprestes/the-internet```
 
 3. Navigate to test folder and run tests:
+
 ```robot -d ..\results --variable URL:http://localhost:7080 --variable URL_NP:localhost:7080 --variable BROWSER:Firefox .```
 
 OR add the variables to the variable file in the common folder.
